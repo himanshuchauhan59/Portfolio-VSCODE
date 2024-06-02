@@ -1,0 +1,12 @@
+.file-header::-webkit-scrollbar {
+    height: 0px;
+}
+
+.file-header::-webkit-scrollbar-track {
+    background-color: rgba(128, 128, 128, 0.13);
+}
+
+.file-header::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 10px;
+}

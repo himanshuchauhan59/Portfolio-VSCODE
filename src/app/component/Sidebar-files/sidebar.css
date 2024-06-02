@@ -1,0 +1,59 @@
+.file-section {
+    .list-of-files {
+        margin-top: 5px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+
+        span {
+            width: 100%;
+            padding: 2px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            margin: 0px 0px;
+
+            svg {
+                width: 18px;
+                height: 18px;
+                margin-left: 5px;
+                margin-right: 7px;
+            }
+        }
+
+        span:hover {
+            background-color: rgba(128, 128, 128, 0.273);
+        }
+
+        span.htmlFile {
+            svg {
+                fill: rgba(255, 68, 0, 0.593);
+            }
+        }
+
+        span.cssFile {
+            svg {
+                fill: rgba(0, 0, 255, 0.593);
+            }
+        }
+
+        span.jsFile {
+            svg {
+                fill: rgba(255, 255, 0, 0.593);
+            }
+        }
+
+        span.jsonFile {
+            svg {
+                fill: rgb(247, 43, 114, 0.593);
+            }
+        }
+
+        span.readmeFile {
+            svg {
+                fill: rgba(0, 128, 0, 0.593);
+            }
+        }
+    }
+}
