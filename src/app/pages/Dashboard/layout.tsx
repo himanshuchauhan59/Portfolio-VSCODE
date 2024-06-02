@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "../globalPage.css";
+// import "../globalPage.css";
 import Header from "@/app/component/Header/header";
 import SideBarIconsOnly from "@/app/component/Sidebar-Icons/sidebar";
 import SideBarFiles from "@/app/component/Sidebar-files/sidebar";
