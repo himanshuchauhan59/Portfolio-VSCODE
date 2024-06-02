@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-// import "../globalPage.css";
+import "./globalPage.css";
 import Header from "@/app/component/Header/header";
 import SideBarIconsOnly from "@/app/component/Sidebar-Icons/sidebar";
 import SideBarFiles from "@/app/component/Sidebar-files/sidebar";
@@ -33,7 +33,7 @@ export default function RootLayout({
                         </div>
                         <div className="w-[calc(100%_-_280px)] h-full">
                             <HeaderFiles></HeaderFiles>
-                            <div>
+                            <div className="renderer-section h-[calc(100%_-_10px)] overflow-y-scroll">
                                 {children}
                             </div>
                         </div>

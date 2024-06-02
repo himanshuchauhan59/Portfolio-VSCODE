@@ -1,5 +1,18 @@
 /* 
     ================================
+    LAYOUT PAGE OF DASHBOARD PAGE CSS
+    ================================
+*/
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background: transparent;
+}
+
+
+/* 
+    ================================
     INDEX PAGE CSS
     ================================
 */
@@ -10,7 +23,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 
     .image-section {
         margin-top: 25px;

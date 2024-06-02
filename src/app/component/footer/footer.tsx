@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Footer() {
     return (
-        <div className="flex justify-between bg-general-footer-background">
+        <div className="flex justify-between bg-general-footer-background relative z-10">
             <div className="flex items-center justify-start w-full">
                 <div className="bg-[#057a11] px-4 mr-2">
                     <FontAwesomeIcon icon={faArrowRightArrowLeft} className="text-xs" />

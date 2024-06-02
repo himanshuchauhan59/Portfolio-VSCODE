@@ -7,7 +7,7 @@ export default function Home() {
         <>
             <div className='index-page-section'>
                 <div className='image-section'>
-                    <Image src={"/pixelArt.png"} alt="user-image" width={100} height={100} className='w-[18%] h-[18%] rounded-full max-w-[100%] max-h-[100%]'></Image>
+                    <Image src={"/pixelArt.png"} alt="user-image" width={100} height={100} className='w-[18%] h-auto rounded-full max-w-[100%] max-h-[100%]'></Image>
                 </div>
                 <div>
                     <TypeAnimation
@@ -49,7 +49,7 @@ export default function Home() {
                             <p className='text-xs ml-7'><span className='key text-[#5bd3f5]'>{'"'}successfullyCompletedProjects{'"'}</span> : <span className='value text-[#ff9a63]'>{'"'}10+{'"'}</span></p>
                             <span className='brackets text-xs text-[#f5de5b]'>{'}'}</span>
                         </div>
-                        <div className='code-detail-section text-justify w-[calc(75%_-_140px)]'>
+                        <div className='code-detail-section text-justify w-[calc(73%_-_140px)]'>
                             <h6 className='text-base mb-3'>My Description</h6>
                             <p className='text-xs'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laudantium ipsa, deleniti maiores totam soluta molestiae quod, ipsum quis nulla, reprehenderit nesciunt ducimus facere doloribus laboriosam corrupti et placeat vitae.
                             </p>
